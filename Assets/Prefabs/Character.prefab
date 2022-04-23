@@ -31045,7 +31045,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &3154975321977443367
 Transform:
   m_ObjectHideFlags: 0
@@ -36544,7 +36544,7 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 56bfce9b803bcf5478aefde29f372819, type: 3}
   - {fileID: 8300000, guid: 96540c7724e2910408b236c370ca8e98, type: 3}
   - {fileID: 8300000, guid: 784f52dc9793c1046941722ca24ea8af, type: 3}
-  MouseSensitivity: 1
+  MouseSensitivity: 0.8
   PlayerSpeed: 5
   RunningSpeed: 7
   JumpSpeed: 3
@@ -36568,6 +36568,8 @@ MonoBehaviour:
   health: 100
   energy: 100
   bright: 100
+  charLight: {fileID: 1558564411}
+  isNight: 1
 --- !u!143 &6808847686657538535
 CharacterController:
   m_ObjectHideFlags: 0
